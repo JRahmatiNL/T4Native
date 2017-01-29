@@ -3,6 +3,7 @@ Prototype Java library for compiling a portion of typescript into swift and Java
 "public class HelloWorld extends HelloWorldBase implements IGreeter, ISerializable {" in:
  - java: "public class HelloWorld extends HelloWorldBase implements IGreeter, ISerializable {"
  - swift: "public class HelloWorld extends HelloWorldBase: IGreeter, ISerializable {"
+
 "constructor(myArg:myType) {" in:
   - java: "public HelloWorld(myType myArg)"
   - swift: "init(myArg:myType)"
